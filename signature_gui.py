@@ -8,7 +8,7 @@ model = YOLO("signature.pt")  # Make sure best.pt is in the working directory
 
 # Initialize Tkinter
 root = tk.Tk()
-root.title("Pill Detection")
+root.title("Signature Detection")
 root.geometry("800x600")
 
 # Variables
